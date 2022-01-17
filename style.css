@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.container {
+  background-image: url(2040735.jpg);
+  color: #fff;
+  padding: 50px;
+  height: 350px;
+  margin: 5px 15px 5px 15px;
+  border-radius: 100%;
+}
+
+.container.ultra {
+  padding: 50px;
+  height: 850px;
+  margin: 5px 100px 5px 100px;
+  border-radius: 30px;
+}
